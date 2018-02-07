@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatToolbarModule, MatButtonModule,MatGridListModule } from '@angular/material';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -25,7 +26,7 @@ import { HomeComponent } from './home/home.component';
     HomeComponent
   ],
   imports: [
-    BrowserModule,MatToolbarModule,NoopAnimationsModule,FlexLayoutModule,MatButtonModule,MatGridListModule
+    BrowserModule,MatToolbarModule,NoopAnimationsModule,FlexLayoutModule,MatButtonModule,MatGridListModule,NgbModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,36 @@
-<div class="container">
+<header>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</header>
+<!-- <div class="container">
     <mat-grid-list cols="2" rowHeight="2:1">
         <mat-grid-tile>About Us</mat-grid-tile>
         <mat-grid-tile>Alumnae Directory</mat-grid-tile>
         <mat-grid-tile>Articles</mat-grid-tile>
         <mat-grid-tile>Archives</mat-grid-tile>
       </mat-grid-list>
+</div> -->
+<div>
+<ngb-carousel>
+    <ng-template ngbSlide>
+      <img src="https://lorempixel.com/1500/700?r=1" alt="Random first slide">
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="https://lorempixel.com/1500/700?r=2" alt="Random second slide">
+      <div class="carousel-caption">
+        <h3>Second slide label</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <img src="https://lorempixel.com/1500/700?r=3" alt="Random third slide">
+      <div class="carousel-caption">
+        <h3>Third slide label</h3>
+        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+  </ngb-carousel>
 </div>
-
